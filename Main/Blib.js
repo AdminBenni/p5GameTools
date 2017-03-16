@@ -1,21 +1,8 @@
-var WolrdSpace;
-
-function setup(){
-    WorldSpace = new Array(width);
-    for(var i = 0; i < WorldSpace.length; i++){
-        WorldSpace[i] = new Array(height);
-    }
-    for(var i = 0; i< WorldSpace.length; i++){
-        for(var j = 0; j < WorldSpace[i].length; j++){
-            WorldSpace[i][j] = "empty";
-        }
-    }
-}
-
-function draw(){
+function GameObject2(){
     
 }
 
+/*
 function Bobject2(X, Y, WIDTH, HEIGHT, COLLIDER){
     this.transform = {
         position: createVector(X, Y),
@@ -40,4 +27,4 @@ function Bobject2(X, Y, WIDTH, HEIGHT, COLLIDER){
     this.collider = {
         
     }
-}
+}*/

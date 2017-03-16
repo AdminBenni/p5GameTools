@@ -1,0 +1,27 @@
+/*				ObjectsObjects			*/
+
+//Two Dimentional GameObject That Contain Certain Behaviors
+//The Deafult Values Are: GameObject(0, 0, 0, 0, "none", false);
+GameObject2(X, Y, WIDTH, HEIGHT, DRAWTYPE, COLLIDER);
+//Three Dimentional GameObjects That Contain Certain Behaviors
+GameOobject3();
+//A Function That Must Be Placed In The Draw() Function To Be Able To Utilize The GameObjects
+RenderObjects();
+//A Function In Which Contains Info About All Created GameObjects
+ObjectInfo();
+
+/*				GameObject2				*/
+//Returns Weather Or Not An Object Is Active In The Scene, If Given A Boolean Value It Will Change The Objects Active State
+GameObject.active(bool);
+//Returns The Objects Current Tag (If Object Has No Tag It Will Return The Objects Index In The Form Of A String) If Given A String Value It Will Change The Objects Tag
+GameObject2.tag(string); 
+//Returns The Objects Index (Read Only)
+GameObject2.index
+//Vector Which Holds Info on The Objects Position In WorldSpace
+GameObject2.Position
+//Removes The Object From The Rendering Process And Will Not Intereact With Any other Object (Is Reversable By Calling GameObject2.Restore())
+GameObject2.Remove();
+//Restores A Removed Object (Enters It Into The Rendering Process And Allows It To Interact With Other Objects)
+GameObject2.Restore();
+/*				DRAWTYPE				*/
+//A string that specifies how the object shal be drawn
