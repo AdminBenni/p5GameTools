@@ -1,5 +1,8 @@
+//A fucntion that shall always be placed in the bottom of the p5 setup function
+start();
+//A function that shall always be placed in the at the bottom of the setup function
+update();
 /*				ObjectsObjects			*/
-
 //Two Dimentional GameObject That Contain Certain Behaviors
 //The Deafult Values Are: GameObject(0, 0, 0, 0, "none", false);
 GameObject2(X, Y, WIDTH, HEIGHT, DRAWTYPE, COLLIDER);
@@ -19,6 +22,8 @@ GameObject2.tag(string);
 GameObject2.index
 //Vector Which Holds Info on The Objects Position In WorldSpace
 GameObject2.Position
+//A boolean which says if an object has a collider
+GameObject2.collidable
 //Removes The Object From The Rendering Process And Will Not Intereact With Any other Object (Is Reversable By Calling GameObject2.Restore())
 GameObject2.Remove();
 //Restores A Removed Object (Enters It Into The Rendering Process And Allows It To Interact With Other Objects)
